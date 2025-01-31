@@ -13,146 +13,11 @@
         <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
         <link rel="alternate" type="application/rss+xml" title="Rovex &raquo; Feed" href="https://demo.awaikenthemes.com/rovex/feed/"/>
         <link rel="alternate" type="application/rss+xml" title="Rovex &raquo; Comments Feed" href="https://demo.awaikenthemes.com/rovex/comments/feed/"/>
-        <script>
-            window._wpemojiSettings = {
-                "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
-                "ext": ".png",
-                "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
-                "svgExt": ".svg",
-                "source": {
-                    "concatemoji": "https:\/\/demo.awaikenthemes.com\/rovex\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1"
-                }
-            };
-            /*! This file is auto-generated */
-            !function(i, n) {
-                var o, s, e;
-                function c(e) {
-                    try {
-                        var t = {
-                            supportTests: e,
-                            timestamp: (new Date).valueOf()
-                        };
-                        sessionStorage.setItem(o, JSON.stringify(t))
-                    } catch (e) {}
-                }
-                function p(e, t, n) {
-                    e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                    e.fillText(t, 0, 0);
-                    var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data)
-                      , r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
-                    e.fillText(n, 0, 0),
-                    new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
-                    return t.every(function(e, t) {
-                        return e === r[t]
-                    })
-                }
-                function u(e, t, n) {
-                    switch (t) {
-                    case "flag":
-                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
-                    case "emoji":
-                        return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
-                    }
-                    return !1
-                }
-                function f(e, t, n) {
-                    var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300,150) : i.createElement("canvas")
-                      , a = r.getContext("2d", {
-                        willReadFrequently: !0
-                    })
-                      , o = (a.textBaseline = "top",
-                    a.font = "600 32px Arial",
-                    {});
-                    return e.forEach(function(e) {
-                        o[e] = t(a, e, n)
-                    }),
-                    o
-                }
-                function t(e) {
-                    var t = i.createElement("script");
-                    t.src = e,
-                    t.defer = !0,
-                    i.head.appendChild(t)
-                }
-                "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports",
-                s = ["flag", "emoji"],
-                n.supports = {
-                    everything: !0,
-                    everythingExceptFlag: !0
-                },
-                e = new Promise(function(e) {
-                    i.addEventListener("DOMContentLoaded", e, {
-                        once: !0
-                    })
-                }
-                ),
-                new Promise(function(t) {
-                    var n = function() {
-                        try {
-                            var e = JSON.parse(sessionStorage.getItem(o));
-                            if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests)
-                                return e.supportTests
-                        } catch (e) {}
-                        return null
-                    }();
-                    if (!n) {
-                        if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob)
-                            try {
-                                var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));"
-                                  , r = new Blob([e],{
-                                    type: "text/javascript"
-                                })
-                                  , a = new Worker(URL.createObjectURL(r),{
-                                    name: "wpTestEmojiSupports"
-                                });
-                                return void (a.onmessage = function(e) {
-                                    c(n = e.data),
-                                    a.terminate(),
-                                    t(n)
-                                }
-                                )
-                            } catch (e) {}
-                        c(n = f(s, u, p))
-                    }
-                    t(n)
-                }
-                ).then(function(e) {
-                    for (var t in e)
-                        n.supports[t] = e[t],
-                        n.supports.everything = n.supports.everything && n.supports[t],
-                        "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
-                    n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag,
-                    n.DOMReady = !1,
-                    n.readyCallback = function() {
-                        n.DOMReady = !0
-                    }
-                }).then(function() {
-                    return e
-                }).then(function() {
-                    var e;
-                    n.supports.everything || (n.readyCallback(),
-                    (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji),
-                    t(e.wpemoji)))
-                }))
-            }((window,
-            document), window._wpemojiSettings);
-        </script>
+    
         <link rel='stylesheet' id='elementor-frontend-css' href='https://demo.awaikenthemes.com/rovex/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.26.4' media='all'/>
         <link rel='stylesheet' id='elementor-post-1810-css' href='https://demo.awaikenthemes.com/rovex/wp-content/uploads/elementor/css/post-1810.css?ver=1736337007' media='all'/>
         <link rel='stylesheet' id='elementor-post-1814-css' href='https://demo.awaikenthemes.com/rovex/wp-content/uploads/elementor/css/post-1814.css?ver=1736337008' media='all'/>
-        <style id='wp-emoji-styles-inline-css'>
-            img.wp-smiley, img.emoji {
-                display: inline !important;
-                border: none !important;
-                box-shadow: none !important;
-                height: 1em !important;
-                width: 1em !important;
-                margin: 0 0.07em !important;
-                vertical-align: -0.1em !important;
-                background: none !important;
-                padding: 0 !important;
-            }
-        </style>
+         
         <style id='classic-theme-styles-inline-css'>
             /*! This file is auto-generated */
             .wp-block-button__link {
@@ -525,8 +390,7 @@
         <link rel='stylesheet' id='ekit-widget-styles-pro-css' href='https://demo.awaikenthemes.com/rovex/wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro.css?ver=3.7.8' media='all'/>
         <link rel='stylesheet' id='ekit-responsive-css' href='https://demo.awaikenthemes.com/rovex/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.3.7' media='all'/>
         <link rel='stylesheet' id='rovex-font-css' href='https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&#038;display=swap' media='all'/>
-        <link rel='stylesheet' id='rovex-css-variable-css' href='https://demo.awaikenthemes.com/rovex/wp-content/themes/rovex/assets/css/css-variable.css?ver=1.0.0' media='all'/>
-        <link rel='stylesheet' id='fontawesome-6.4.0-css' href='https://demo.awaikenthemes.com/rovex/wp-content/themes/rovex/assets/css/all.min.css?ver=1.0.0' media='all'/>
+         <link rel='stylesheet' id='fontawesome-6.4.0-css' href='https://demo.awaikenthemes.com/rovex/wp-content/themes/rovex/assets/css/all.min.css?ver=1.0.0' media='all'/>
         <link rel='stylesheet' id='bootstrap-5.3.2-css' href='https://demo.awaikenthemes.com/rovex/wp-content/themes/rovex/assets/css/bootstrap.min.css?ver=1.0.0' media='all'/>
         <link rel='stylesheet' id='rovex-style-css' href='https://demo.awaikenthemes.com/rovex/wp-content/themes/rovex/style.css?ver=1.0.0' media='all'/>
         <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Montserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.1' media='all'/>
@@ -567,10 +431,10 @@
                 }
             }
         </style>
-        <link rel="icon" href="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/favicon.png" sizes="32x32"/>
-        <link rel="icon" href="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/favicon.png" sizes="192x192"/>
-        <link rel="apple-touch-icon" href="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/favicon.png"/>
-        <meta name="msapplication-TileImage" content="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/favicon.png"/>
+        <link rel="icon" href="./img/nora.png" sizes="32x32"/>
+        <link rel="icon" href="./img/nora.png" sizes="192x192"/>
+        <link rel="apple-touch-icon" href="./img/nora.png"/>
+        <meta name="msapplication-TileImage" content="./img/nora.png"/>
     </head>
     <body >
  
@@ -585,13 +449,12 @@
                             <div class="elementor-element elementor-element-e7d53c2 elementor-widget elementor-widget-rovex-site-logo" data-id="e7d53c2" data-element_type="widget" data-settings="{&quot;align&quot;:&quot;left&quot;,&quot;align_tablet&quot;:&quot;left&quot;,&quot;space&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;max_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:41,&quot;sizes&quot;:[]},&quot;width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;space_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;max_height_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;max_height_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;caption_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="rovex-site-logo.default">
                                 <div class="elementor-widget-container">
                                     <div class="ata-site-logo">
-                                        <a data-elementor-open-lightbox="" class='elementor-clickable' href="https://demo.awaikenthemes.com/rovex">
-                                            <div class="ata-site-logo-set">
+                                             <div class="ata-site-logo-set">
                                                 <div class="ata-site-logo-container">
                                                     <img  height="300px" width="50px"  src="./img/nora.png" alt="default-logo"/>
                                                 </div>
                                             </div>
-                                        </a>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -741,27 +604,27 @@
                                                 <div class="elementor-image-carousel swiper-wrapper" aria-live="off">
                                                     <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="1 of 5">
                                                         <figure class="swiper-slide-inner">
-                                                            <img decoding="async" class="swiper-slide-image" src="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/client-logo-1.svg" alt="client-logo-1"/>
+                                                            <img decoding="async" class="swiper-slide-image" width="80px" height="90px" src="./img/krd.png" alt="client-logo-1"/>
                                                         </figure>
                                                     </div>
                                                     <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="2 of 5">
                                                         <figure class="swiper-slide-inner">
-                                                            <img decoding="async" class="swiper-slide-image" src="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/client-logo-2.svg" alt="client-logo-2"/>
+                                                            <img decoding="async" class="swiper-slide-image"  width="80px" height="80px" src="./img/4matic.png" alt="client-logo-2"/>
                                                         </figure>
                                                     </div>
                                                     <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="3 of 5">
                                                         <figure class="swiper-slide-inner">
-                                                            <img decoding="async" class="swiper-slide-image" src="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/client-logo-3.svg" alt="client-logo-3"/>
+                                                            <img decoding="async" class="swiper-slide-image"  width="80px" height="90px" src="./img/Disney_logo.png" alt="client-logo-3"/>
                                                         </figure>
                                                     </div>
                                                     <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="4 of 5">
                                                         <figure class="swiper-slide-inner">
-                                                            <img decoding="async" class="swiper-slide-image" src="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/client-logo-4.svg" alt="client-logo-4"/>
+                                                            <img decoding="async" class="swiper-slide-image"  width="80px" height="90px" src="./img/netflix.webp" alt="client-logo-4"/>
                                                         </figure>
                                                     </div>
                                                     <div class="swiper-slide" role="group" aria-roledescription="slide" aria-label="5 of 5">
                                                         <figure class="swiper-slide-inner">
-                                                            <img decoding="async" class="swiper-slide-image" src="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/client-logo-5.svg" alt="client-logo-5"/>
+                                                            <img decoding="async" class="swiper-slide-image"  width="80px" height="90px" src="./img/ukpizza+.png" alt="client-logo-5"/>
                                                         </figure>
                                                     </div>
                                                 </div>
@@ -825,7 +688,7 @@
                                                     </span>
                                                     <div class="ekit-tab-title-group">
                                                         <p class="elementskit-tab-sub-title">01</p>
-                                                        <span class="elementskit-tab-title">UI/UX Design</span>
+                                                        <span class="elementskit-tab-title">Social Media design</span>
                                                     </div>
                                                 </a>
                                             </li>
@@ -838,7 +701,7 @@
                                                     </span>
                                                     <div class="ekit-tab-title-group">
                                                         <p class="elementskit-tab-sub-title">02</p>
-                                                        <span class="elementskit-tab-title">Web Development</span>
+                                                        <span class="elementskit-tab-title">Digital Marketing</span>
                                                     </div>
                                                 </a>
                                             </li>
@@ -851,7 +714,7 @@
                                                     </span>
                                                     <div class="ekit-tab-title-group">
                                                         <p class="elementskit-tab-sub-title">03</p>
-                                                        <span class="elementskit-tab-title">3D Designs</span>
+                                                        <span class="elementskit-tab-title">3D Aomation</span>
                                                     </div>
                                                 </a>
                                             </li>
@@ -864,7 +727,7 @@
                                                     </span>
                                                     <div class="ekit-tab-title-group">
                                                         <p class="elementskit-tab-sub-title">04 </p>
-                                                        <span class="elementskit-tab-title">Digital Marketing Design</span>
+                                                        <span class="elementskit-tab-title">MOtion Graphic</span>
                                                     </div>
                                                 </a>
                                             </li>
@@ -877,7 +740,7 @@
                                                     </span>
                                                     <div class="ekit-tab-title-group">
                                                         <p class="elementskit-tab-sub-title">05</p>
-                                                        <span class="elementskit-tab-title">Motion Graphics</span>
+                                                        <span class="elementskit-tab-title">Video Graphy</span>
                                                     </div>
                                                 </a>
                                             </li>
@@ -1100,7 +963,7 @@
                                                                                     </div>
                                                                                     <div class="box-body">
                                                                                         <h3 class="elementskit-info-box-title">Digital Marketing Design                </h3>
-                                                                                        <p>We're a full-service design agency specializing in branding, web design, and creative strategies that elevate businesses.</p>
+                                                                                        <p>We're a full-service design agency specializing in branding, Rebranding, and creative strategies that elevate businesses.</p>
                                                                                         <div class="box-footer disable_hover_button">
                                                                                             <div class="btn-wraper">
                                                                                                 <a href="https://demo.awaikenthemes.com/rovex/services/digital-marketing-design" target="_self" rel="" class="elementskit-btn whitespace--normal elementor-animation-">
@@ -1244,7 +1107,7 @@
                                                         <div class="awaiken-portfolio-grid-item__body">
                                                             <div class="awaiken-portfolio-grid-item__content">
                                                                 <a class="awaiken-portfolio-grid-item__link" href="https://demo.awaikenthemes.com/rovex/portfolio/stellar-tech-solutions/">
-                                                                    <h4 class="awaiken-portfolio-grid-item__title">Stellar Tech Solutions</h4>
+                                                                    <h4 class="awaiken-portfolio-grid-item__title">Lezzo Games</h4>
                                                                 </a>
                                                                 <div class="awaiken-portfolio-grid-item__excerpt">
                                                                     <p>We redesigned Stellar Tech &#8217;s website to enhance.</p>
@@ -1270,7 +1133,7 @@
                                                         <div class="awaiken-portfolio-grid-item__body">
                                                             <div class="awaiken-portfolio-grid-item__content">
                                                                 <a class="awaiken-portfolio-grid-item__link" href="https://demo.awaikenthemes.com/rovex/portfolio/green-wave-foods/">
-                                                                    <h4 class="awaiken-portfolio-grid-item__title">Green Wave Foods</h4>
+                                                                    <h4 class="awaiken-portfolio-grid-item__title">Shlikolata</h4>
                                                                 </a>
                                                                 <div class="awaiken-portfolio-grid-item__excerpt">
                                                                     <p>We built a user-friendly Shopping platform for Green Wave Foods.</p>
@@ -1296,7 +1159,7 @@
                                                         <div class="awaiken-portfolio-grid-item__body">
                                                             <div class="awaiken-portfolio-grid-item__content">
                                                                 <a class="awaiken-portfolio-grid-item__link" href="https://demo.awaikenthemes.com/rovex/portfolio/horizon-real-estate/">
-                                                                    <h4 class="awaiken-portfolio-grid-item__title">Horizon Real Estate</h4>
+                                                                    <h4 class="awaiken-portfolio-grid-item__title">Alen Factory </h4>
                                                                 </a>
                                                                 <div class="awaiken-portfolio-grid-item__excerpt">
                                                                     <p>We helped Horizon Real Estate establish a trusted brand identity.</p>
@@ -1398,13 +1261,12 @@
                                     <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media gradient-active  hover_from_top">
                                         <div class="elementskit-box-header elementor-animation-">
                                             <div class="elementskit-info-box-icon  text-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-                                                    <path d="M16.0003 20.6667V30L6.66699 20.6667M6.66699 20.6667V11.3333H16.0003M6.66699 20.6667H25.3337L16.0003 11.3333M16.0003 11.3333H25.3337V2H6.66699L16.0003 11.3333Z" stroke="#D7D7D7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <img src="./img/Adobe_After_Effects.png" width="32" height="32" viewBox="0 0 32 32" fill="none">                                                    <path d="M16.0003 20.6667V30L6.66699 20.6667M6.66699 20.6667V11.3333H16.0003M6.66699 20.6667H25.3337L16.0003 11.3333M16.0003 11.3333H25.3337V2H6.66699L16.0003 11.3333Z" stroke="#D7D7D7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                                 </svg>
                                             </div>
                                         </div>
                                         <div class="box-body">
-                                            <h3 class="elementskit-info-box-title">Framer                </h3>
+                                            <h3 class="elementskit-info-box-title">After Effect                </h3>
                                             <p>Design Tool</p>
                                         </div>
                                     </div>
@@ -1542,8 +1404,7 @@
                                     <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media gradient-active  hover_from_top">
                                         <div class="elementskit-box-header elementor-animation-">
                                             <div class="elementskit-info-box-icon  text-center">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-                                                    <g clip-path="url(#clip0_1526_140)">
+                                                    <img src="./img/blender-icon.png" width="32" height="32" viewBox="0 0 32 32" fill="none"  >                                                    <g clip-path="url(#clip0_1526_140)">
                                                         <path d="M5.66504 0.570312H26.335C29.4636 0.570312 32 3.10666 32 6.23535V25.7624C32 28.8911 29.4636 31.4274 26.335 31.4274H5.66504C2.53635 31.4274 0 28.8912 0 25.7624V6.23535C0 3.10666 2.53635 0.570312 5.66504 0.570312Z" fill="#49021F"></path>
                                                         <path d="M13.0475 8.74887V21.9989C13.0475 22.14 12.9841 22.2106 12.8572 22.2104L10.4776 22.2499C10.3644 22.2499 10.3086 22.1796 10.3086 22.0384V8.78837C10.3086 8.67567 10.3716 8.61913 10.4989 8.61913L12.8785 8.57963C12.9602 8.56802 13.036 8.62487 13.0476 8.70668C13.0495 8.72066 13.0495 8.73489 13.0475 8.74887Z" fill="#FF3366"></path>
                                                         <path d="M22.8589 19.8138V21.9915C22.8624 22.0698 22.8215 22.1433 22.7532 22.1818C22.4414 22.3176 22.1101 22.4033 21.7716 22.4356C21.3486 22.4779 20.9398 22.499 20.5453 22.499C19.7449 22.5118 18.9491 22.3755 18.1985 22.0973C17.5373 21.8491 16.9383 21.4595 16.4435 20.9555C15.9612 20.4578 15.5837 19.8682 15.3336 19.2219C15.0693 18.5412 14.9366 17.8166 14.9424 17.0864C14.9231 16.0885 15.1792 15.1046 15.6823 14.2427C16.183 13.4113 16.9037 12.7344 17.765 12.2871C18.7355 11.7901 19.8147 11.5429 20.9048 11.5682C21.3219 11.5605 21.739 11.5853 22.1523 11.6422C22.35 11.6772 22.544 11.7303 22.7321 11.8007C22.8075 11.8529 22.8481 11.9422 22.8378 12.0333L22.8169 14.2626C22.8169 14.3894 22.7603 14.4391 22.6476 14.4106C22.4632 14.3252 22.2682 14.2647 22.0678 14.2309C21.7179 14.1776 21.3644 14.1529 21.0106 14.1568C20.476 14.1322 19.9424 14.2228 19.4459 14.4225C18.9931 14.6234 18.6103 14.9546 18.3466 15.3738C18.0621 15.8601 17.9227 16.4177 17.9447 16.9807C17.9106 17.595 18.0777 18.2037 18.4208 18.7145C18.724 19.1272 19.1435 19.44 19.6255 19.613C20.0961 19.7865 20.5935 19.8759 21.0951 19.8773C21.4341 19.8788 21.7729 19.8612 22.1099 19.8244C22.3086 19.8056 22.5037 19.7593 22.6897 19.687C22.8023 19.6589 22.8588 19.7012 22.8589 19.8138Z" fill="#FF3366"></path>
@@ -1557,7 +1418,7 @@
                                             </div>
                                         </div>
                                         <div class="box-body">
-                                            <h3 class="elementskit-info-box-title">Incopy                </h3>
+                                            <h3 class="elementskit-info-box-title">Blender                </h3>
                                             <p>Design Tool</p>
                                         </div>
                                     </div>
@@ -1611,7 +1472,7 @@
                                 <div class="elementor-element elementor-element-e1e7b37 e-con-full how-it-work-images e-flex e-con e-child" data-id="e1e7b37" data-element_type="container">
                                     <div class="elementor-element elementor-element-a581441 contact-now-circle at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="a581441" data-element_type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
                                         <div class="elementor-widget-container">
-                                            <img loading="lazy" decoding="async" width="613" height="617" src="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/how-work-image-circle.png" class="attachment-full size-full wp-image-1377" alt="" srcset="https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/how-work-image-circle.png 613w, https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/how-work-image-circle-298x300.png 298w, https://demo.awaikenthemes.com/rovex/wp-content/uploads/2025/01/how-work-image-circle-150x150.png 150w" sizes="(max-width: 613px) 100vw, 613px"/>
+                                            <img loading="lazy" decoding="async" width="613" height="617" src="./img/how-work-image-circle.png" class="attachment-full size-full wp-image-1377" alt="" srcset="./img/how-work-image-circle.png 613w, ./img/how-work-image-circle.png 298w, ./img/how-work-image-circle.png 150w" sizes="(max-width: 613px) 100vw, 613px"/>
                                         </div>
                                     </div>
                                     <div class="elementor-element elementor-element-434b9ef elementor-absolute image-anime how-it-work-image at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="434b9ef" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
