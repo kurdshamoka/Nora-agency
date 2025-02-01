@@ -3134,6 +3134,11 @@ aside.widget .wp-block-social-links{
 
 .elementor-element.awaiken-portfolio-gutter-0 .awaiken-portfolio-grid-item__wrapper{
 	border-radius: 0;
+	color: #FFFFFF;
+}
+.elementor-widget-container1 {
+	color: #FFFFFF;
+
 }
 
 .elementor-element.awaiken-portfolio-gutter-0 .awaiken-portfolio-grid-item__wrapper .awaiken-portfolio-grid-item__img{
@@ -3505,10 +3510,17 @@ body.admin-bar .main-header.ekit-sticky--effects{
 /*   Elementor Pages CSS    */
 /****************************/
 
+
+.color{
+	color: #FFFFFF;
+}
+
+
+
 /*  Heading Small Icon & Hide Small Icon  */
 
 .elementor-heading-title span{
-	color: var(--e-global-color-accent);
+	color: #FFFFFF;
 }
 
 .section-title .elementor-heading-title{
@@ -3522,6 +3534,7 @@ body.admin-bar .main-header.ekit-sticky--effects{
 	left: 0;
 	bottom: 0;
 	transform: translateY(-50%);
+	color: #FFFFFF;
 	background-color: var(--e-global-color-accent);
 	mask-image: url("assets/images/icon-sub-heading.svg");
 	mask-repeat: no-repeat;
@@ -3556,7 +3569,7 @@ body.admin-bar .main-header.ekit-sticky--effects{
 
 .hero-content .elementor-heading-title span{
 	position: relative;
-	color: var(--e-global-color-accentsecondary);
+	color: #FFFFFF;
 	display: inline-block;
     padding: 10px 15px 15px 10px;
 	z-index: 0;
@@ -3569,7 +3582,7 @@ body.admin-bar .main-header.ekit-sticky--effects{
     bottom: 0;
     right: 0;
     left: 0;
-    background: var(--e-global-color-accent);
+    background: #FFFFFF;
     border-radius: 26px;
     transform: rotate(-4deg);
     width: 100%;

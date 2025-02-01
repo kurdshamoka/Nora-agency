@@ -1,9 +1,9 @@
 .elementor-kit-9 {
     --e-global-color-primary: #D7D7D7;
     --e-global-color-secondary: #1C1C1C;
-    --e-global-color-text: #A0A0A0;
+    --e-global-color-text: #ffffff;
     --e-global-color-accent: #2d43f1;
-    --e-global-color-accentsecondary: #161616;
+    --e-global-color-accentsecondary: #ffffff;
     --e-global-color-white: #FFFFFF;
     --e-global-color-black: #000000;
     --e-global-color-divider: #FFFFFF1A;
@@ -95,6 +95,7 @@
     --widgets-spacing: 20px 20px;
     --widgets-spacing-row: 20px;
     --widgets-spacing-column: 20px;
+    color: #FFFFFF;
 }
 
 
