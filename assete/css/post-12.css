@@ -102,7 +102,7 @@
 
 .elementor-12 .elementor-element.elementor-element-caed196 .elementor-button {
     fill: var( --e-global-color-accentsecondary );
-    color: white;
+    color: var( --e-global-color-accentsecondary );
 }
 
 .elementor-12 .elementor-element.elementor-element-bc30ab9 {
@@ -391,7 +391,7 @@
 
 .elementor-12 .elementor-element.elementor-element-712f73c .elementor-button {
     fill: var( --e-global-color-accentsecondary );
-    color: white;
+    color: var( --e-global-color-accentsecondary );
 }
 
 .elementor-12 .elementor-element.elementor-element-ceaebe8 {
@@ -431,7 +431,7 @@
 
 .elementor-12 .elementor-element.elementor-element-045e2f7 .elementkit-tab-nav .elementkit-nav-link.active {
     background-color: var( --e-global-color-accent );
-    color: var( --e-global-color-secondary );
+    color: #ffffff;
 }
 
 .elementor-12 .elementor-element.elementor-element-045e2f7 .elementkit-tab-wraper.vertical > .elementkit-tab-nav {
@@ -495,7 +495,7 @@
 
 .elementor-12 .elementor-element.elementor-element-045e2f7 .elementkit-tab-nav .elementkit-nav-link.active span.elementskit-tab-icon path {
     stroke: var( --e-global-color-white );
-    fill: var( --e-global-color-white );
+    fill: #ffffff;
 }
 
 .elementor-12 .elementor-element.elementor-element-045e2f7 .elementkit-tab-nav .elementkit-nav-item a.elementkit-nav-link {
@@ -512,11 +512,18 @@
     font-weight: var( --e-global-typography-secondary-font-weight );
     line-height: var( --e-global-typography-secondary-line-height );
     margin: 0px 24px 0px 0px;
-    color: var( --e-global-color-white );
-}
+ }
 
 .elementor-12 .elementor-element.elementor-element-045e2f7 .elementkit-tab-nav .elementkit-nav-link.active .elementskit-tab-sub-title {
     color: var( --e-global-color-secondary );
+}
+.elementor-121 .elementor-element.elementor-element-045e2f71 .elementkit-tab-nav1 .elementkit-nav-link.active1 .elementskit-tab-sub-title1 {
+    color: #ffffff;
+    font-family: var( --e-global-typography-secondary-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-secondary-font-size );
+    font-weight: var( --e-global-typography-secondary-font-weight );
+    line-height: var( --e-global-typography-secondary-line-height );
+    margin: 0px 24px 0px 0px;
 }
 
 .elementor-12 .elementor-element.elementor-element-97e011b {
@@ -716,7 +723,7 @@
 
 .elementor-12 .elementor-element.elementor-element-91caa4c .elementor-button {
     fill: var( --e-global-color-accentsecondary );
-    color: white;
+    color: var( --e-global-color-accentsecondary );
 }
 
 .elementor-12 .elementor-element.elementor-element-6f2a3d4 {
@@ -1704,7 +1711,7 @@ body.rtl .elementor-12 .elementor-element.elementor-element-434b9ef {
 
 .elementor-12 .elementor-element.elementor-element-c9b5c41 .elementor-button {
     fill: var( --e-global-color-accentsecondary );
-    color: white;
+    color: var( --e-global-color-accentsecondary );
 }
 
 .elementor-12 .elementor-element.elementor-element-7ec2811 {
@@ -2057,7 +2064,7 @@ body.rtl .elementor-12 .elementor-element.elementor-element-434b9ef {
 }
 
 .elementor-12 .elementor-element.elementor-element-3a8cf99 {
-    color: white;
+    color: var( --e-global-color-accentsecondary );
     font-size: 20px;
     font-weight: 600;
     line-height: 1.2em;
@@ -2116,7 +2123,7 @@ body.rtl .elementor-12 .elementor-element.elementor-element-434b9ef {
     gap: 5px;
 }
 
-
+ 
 
 .elementor-12 .elementor-element.elementor-element-bd95a40 > .elementor-widget-container {
     padding: 0px 40px 0px 0px;
@@ -2135,8 +2142,8 @@ body.rtl .elementor-12 .elementor-element.elementor-element-434b9ef {
 .elementor-12 .elementor-element.elementor-element-bd95a40 .elementor-counter {
     gap: 5px;
 }
-
  
+
 .elementor-12 .elementor-element.elementor-element-5355dad .elementor-counter-title {
     justify-content: start;
     font-size: 16px;
@@ -2183,7 +2190,7 @@ body.rtl .elementor-12 .elementor-element.elementor-element-434b9ef {
 }
 
 .elementor-12 .elementor-element.elementor-element-d2aa155 > .elementor-widget-container {
-    background-color: white;
+    background-color: var( --e-global-color-black );
     padding: 22px 22px 22px 22px;
     border-radius: 100px 100px 100px 100px;
 }
@@ -2626,6 +2633,14 @@ body.rtl .elementor-12 .elementor-element.elementor-element-4bc2521 {
     font-weight: 400;
     line-height: 1em;
     color: var( --e-global-color-white );
+}
+
+
+.elementor-121 .elementor-element1.elementor-element-778a6e21 .elementor-heading-title1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1em;
+    color: #ffffff;
 }
 
 .elementor-12 .elementor-element.elementor-element-8a76f65 .elementor-repeater-item-82ec02d > a {
