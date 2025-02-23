@@ -1,0 +1,498 @@
+.elementor-1810 .elementor-element.elementor-element-5e01d8f {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --align-items: center;
+    --gap: 0px 0px;
+    --row-gap: 0px;
+    --column-gap: 0px;
+    --flex-wrap: wrap;
+    border-style: solid;
+    --border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    --border-top-width: 0px;
+    --border-right-width: 0px;
+    --border-bottom-width: 1px;
+    --border-left-width: 0px;
+    border-color: var( --e-global-color-divider );
+    --border-color: var( --e-global-color-divider );
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    --padding-left: 15px;
+    --padding-right: 15px;
+    --z-index: 100;
+    overflow: visible;
+}
+
+.elementor-1810 .elementor-element.elementor-element-c46d063 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: 100%;
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    overflow: visible;
+}
+
+.elementor-widget-rovex-site-logo .ata-site-logo-container .ata-site-logo-img {
+    border-color: var( --e-global-color-primary );
+}
+
+.elementor-widget-rovex-site-logo .widget-image-caption {
+    color: var( --e-global-color-text );
+    font-family: var( --e-global-typography-text-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-text-font-size );
+    font-weight: var( --e-global-typography-text-font-weight );
+    line-height: var( --e-global-typography-text-line-height );
+}
+
+.elementor-1810 .elementor-element.elementor-element-e7d53c2 .ata-site-logo-container, .elementor-1810 .elementor-element.elementor-element-e7d53c2 .ata-caption-width figcaption {
+    text-align: left;
+}
+
+.elementor-1810 .elementor-element.elementor-element-e7d53c2 .ata-site-logo img {
+    max-width: 100%;
+    max-height: 41px;
+}
+
+.elementor-1810 .elementor-element.elementor-element-e7d53c2 .widget-image-caption {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.elementor-1810 .elementor-element.elementor-element-e7d53c2 .ata-site-logo-container .ata-site-logo-img {
+    border-style: none;
+}
+
+.elementor-1810 .elementor-element.elementor-element-01be733 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --flex-wrap-mobile: wrap;
+    --justify-content: center;
+    overflow: visible;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a {
+    background-color: #02010100;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding: 8px 20px 8px 20px;
+    color: var( --e-global-color-accentsecondary );
+    border-style: none;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel {
+    background-color: var( --e-global-color-accent );
+    border-style: none;
+    border-radius: 20px 20px 20px 20px;
+    min-width: 230px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-hamburger {
+    background-color: var( --e-global-color-accent );
+    float: right;
+    border-style: none;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-close {
+    background-color: var( --e-global-color-accentsecondary );
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+    border-style: none;
+    color: var( --e-global-color-white );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-container {
+    height: 48px;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: var( --e-global-color-primary );
+    padding: 14px 20px 14px 20px;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:hover {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:focus {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:active {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li:hover > a {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li:hover > a .elementskit-submenu-indicator {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:hover .elementskit-submenu-indicator {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:focus .elementskit-submenu-indicator {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:active .elementskit-submenu-indicator {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li.current-menu-item > a {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li.current-menu-ancestor > a {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li.current-menu-ancestor > a .elementskit-submenu-indicator {
+    color: var( --e-global-color-accent );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a .elementskit-submenu-indicator {
+    font-size: 12px;
+    color: var( --e-global-color-primary );
+    fill: var( --e-global-color-primary );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a .ekit-submenu-indicator-icon {
+    font-size: 12px;
+    color: var( --e-global-color-primary );
+    fill: var( --e-global-color-primary );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a:hover {
+    color: var( --e-global-color-white );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a:focus {
+    color: var( --e-global-color-white );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a:active {
+    color: var( --e-global-color-white );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li:hover > a {
+    color: var( --e-global-color-white );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li.current-menu-item > a {
+    color: var( --e-global-color-white );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li:last-child > a {
+    border-style: none;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li:first-child > a {
+    border-style: none;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-submenu-panel {
+    padding: 5px 0px 5px 0px;
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-hamburger .elementskit-menu-hamburger-icon {
+    background-color: var( --e-global-color-accentsecondary );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-hamburger > .ekit-menu-icon {
+    color: var( --e-global-color-accentsecondary );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-hamburger:hover .elementskit-menu-hamburger-icon {
+    background-color: var( --e-global-color-black );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-hamburger:hover > .ekit-menu-icon {
+    color: var( --e-global-color-black );
+}
+
+.elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-close:hover {
+    color: var( --e-global-color-primary );
+}
+
+.elementor-1810 .elementor-element.elementor-element-f3ea926 {
+    --display: flex;
+    --flex-direction: column;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    --container-widget-height: initial;
+    --container-widget-flex-grow: 0;
+    --container-widget-align-self: initial;
+    --flex-wrap-mobile: wrap;
+    --align-items: flex-end;
+    overflow: visible;
+}
+
+.elementor-widget-button .elementor-button {
+    background-color: var( --e-global-color-accent );
+    font-family: var( --e-global-typography-accent-font-family ), Sans-serif;
+    font-size: var( --e-global-typography-accent-font-size );
+    font-weight: var( --e-global-typography-accent-font-weight );
+    line-height: var( --e-global-typography-accent-line-height );
+}
+
+.elementor-1810 .elementor-element.elementor-element-5bfc348 .elementor-button-content-wrapper {
+    flex-direction: row-reverse;
+}
+
+.elementor-1810 .elementor-element.elementor-element-5bfc348 .elementor-button .elementor-button-content-wrapper {
+    gap: 10px;
+}
+
+.elementor-1810 .elementor-element.elementor-element-5bfc348 .elementor-button {
+    fill: var( --e-global-color-accentsecondary );
+    color: var( --e-global-color-accentsecondary );
+}
+
+.elementor-18101 .elementor-element1.elementor-element-5bfc3481 .elementor-button1 {
+    fill: var( --e-global-color-accentsecondary );
+    color: #ffffff;
+}
+
+
+@media(min-width: 768px) {
+    .elementor-1810 .elementor-element.elementor-element-c46d063 {
+        --width:20%;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-01be733 {
+        --width: 60%;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-f3ea926 {
+        --width: 20%;
+    }
+}
+
+@media(max-width: 1024px) and (min-width:768px) {
+    .elementor-1810 .elementor-element.elementor-element-c46d063 {
+        --width:80%;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-01be733 {
+        --width: 20%;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-f3ea926 {
+        --width: 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .elementor-1810 .elementor-element.elementor-element-5e01d8f {
+        --padding-top:10px;
+        --padding-bottom: 10px;
+        --padding-left: 10px;
+        --padding-right: 10px;
+    }
+
+    .elementor-widget-rovex-site-logo .widget-image-caption {
+        font-size: var( --e-global-typography-text-font-size );
+        line-height: var( --e-global-typography-text-line-height );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-e7d53c2 .ata-site-logo-container, .elementor-1810 .elementor-element.elementor-element-e7d53c2 .ata-caption-width figcaption {
+        text-align: left;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-01be733 {
+        --justify-content: flex-end;
+        --align-items: flex-end;
+        --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow ) ) * 100% );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-container {
+        background-color: var( --e-global-color-accent );
+        max-width: 100%;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-nav-identity-panel {
+        padding: 10px 0px 10px 0px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a {
+        font-size: 16px;
+        color: var( --e-global-color-accentsecondary );
+        padding: 8px 20px 8px 20px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:hover {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:focus {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:active {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li:hover > a {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li:hover > a .elementskit-submenu-indicator {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:hover .elementskit-submenu-indicator {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:focus .elementskit-submenu-indicator {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a:active .elementskit-submenu-indicator {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li.current-menu-item > a {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li.current-menu-ancestor > a {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li.current-menu-ancestor > a .elementskit-submenu-indicator {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a .elementskit-submenu-indicator {
+        color: var( --e-global-color-accentsecondary );
+        fill: var( --e-global-color-accentsecondary );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a .ekit-submenu-indicator-icon {
+        color: var( --e-global-color-accentsecondary );
+        fill: var( --e-global-color-accentsecondary );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a {
+        font-size: 16px;
+        padding: 8px 20px 8px 10px;
+        color: var( --e-global-color-accentsecondary );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a:hover {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a:focus {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a:active {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li:hover > a {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li.current-menu-item > a {
+        color: var( --e-global-color-white );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-submenu-panel {
+        padding: 5px 0px 5px 0px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-hamburger {
+        float: right;
+        padding: 8px 8px 2px 8px;
+        width: 38px;
+        border-radius: 6px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-hamburger > .ekit-menu-icon {
+        font-size: 20px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-menu-close {
+        font-size: 24px;
+        line-height: 1em;
+        padding: 7px 5px 7px 5px;
+        margin: 10px 20px 10px 20px;
+        width: 38px;
+        border-radius: 6px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-nav-logo > img {
+        max-width: 160px;
+        max-height: 60px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-nav-logo {
+        margin: 5px 0px 5px 0px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .elementor-widget-button .elementor-button {
+        font-size: var( --e-global-typography-accent-font-size );
+        line-height: var( --e-global-typography-accent-line-height );
+    }
+}
+
+@media(max-width: 767px) {
+    .elementor-1810 .elementor-element.elementor-element-c46d063 {
+        --width:80%;
+    }
+
+    .elementor-widget-rovex-site-logo .widget-image-caption {
+        font-size: var( --e-global-typography-text-font-size );
+        line-height: var( --e-global-typography-text-line-height );
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-01be733 {
+        --width: 20%;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav > li > a {
+        font-size: 16px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-navbar-nav .elementskit-submenu-panel > li > a {
+        font-size: 16px;
+    }
+
+    .elementor-1810 .elementor-element.elementor-element-dcde42c .elementskit-nav-logo > img {
+        max-width: 120px;
+        max-height: 50px;
+    }
+
+    .elementor-widget-button .elementor-button {
+        font-size: var( --e-global-typography-accent-font-size );
+        line-height: var( --e-global-typography-accent-line-height );
+    }
+}
